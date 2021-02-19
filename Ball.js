@@ -4,7 +4,7 @@ class Ball{
             restitution:1.0
         }
         this.body = Bodies.circle(x,y,40,options);
-        World.add(World, this.body)
+        World.add(world, this.body)
     }
     display(){
         ellipseMode(RADIUS)
